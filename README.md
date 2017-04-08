@@ -11,3 +11,6 @@ aws_unused_volume_delete.sh : When you delete an AWS instance any additional ebs
   available volumes and delete them if they are older than 7 days.
 
 ec2_inventory.py: Create EC2 instances inventory
+
+
+sg_wideopen.py: Find security groups that open from 0.0.0.0 to ports other than 80 and 443
