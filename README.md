@@ -14,3 +14,5 @@ ec2_inventory.py: Create EC2 instances inventory
 
 
 sg_wideopen.py: Find security groups that open from 0.0.0.0 to ports other than 80 and 443
+
+s3_public_bucket: Script that shows all S3 buckets with global grants
